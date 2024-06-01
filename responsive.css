@@ -1,0 +1,1384 @@
+@media screen and (max-width: 992px) {
+
+    /* Common Style  */
+    .title {
+        font-size: 1.6vw;
+    }
+
+    .btn {
+        font-size: 1.7vw;
+    }
+
+    .title-head {
+        margin: 1.6vw 0;
+        font-size: 3.7vw;
+    }
+
+    /* Header Area  */
+    header .popup {
+        justify-content: space-between;
+        padding: 0 5vw;
+    }
+
+    header .popup p {
+        display: none;
+    }
+
+    header .popup a,
+    header .popup .settings select,
+    header .popup .settings button {
+        font-size: 1.8vw;
+    }
+
+    header nav .nav-left .nav-items {
+        display: none;
+    }
+
+    header nav .nav-right i {
+        font-size: 2.8vw;
+        margin: 0 .4rem;
+    }
+
+    /* Section One Area  */
+    #sec-one {
+        height: auto;
+        padding: 3rem;
+        flex-direction: column;
+    }
+
+    #sec-one .left-side h2 {
+        font-size: 4.8vw;
+        line-height: 5.8vw;
+        margin-top: 1.5rem;
+    }
+
+    #sec-one .left-side p {
+        width: 75%;
+        font-size: 2vw;
+        line-height: 3.2vw;
+        margin: 1.5rem 0 2rem 0;
+    }
+
+    #sec-one .right-side div {
+        background: transparent;
+    }
+
+    #sec-one .right-side div img {
+        position: static;
+        width: 50%;
+        display: block;
+        margin: 0 auto;
+        margin-top: 7vw;
+    }
+
+    /* Section Two Area  */
+    #sec-two {
+        width: 100%;
+    }
+
+    #sec-two .benefits {
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+    #sec-two .benefits .benefit {
+        width: 48%;
+        justify-content: center;
+        margin-bottom: 5vw;
+    }
+
+    #sec-two .benefits .benefit i {
+        font-size: 5.3vw;
+    }
+
+    #sec-two .benefits .benefit div {
+        margin-left: 1.7rem;
+    }
+
+    #sec-two .benefits .benefit div h3 {
+        font-size: 2.1vw;
+        margin-bottom: .4rem;
+    }
+
+    #sec-two .benefits .benefit div p {
+        font-size: 1.6vw;
+    }
+
+    #sec-two .offers {
+        margin-top: 2.5rem;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    #sec-two .offers .offer {
+        width: 90%;
+        padding: 7vw;
+        margin-bottom: 5vw;
+    }
+
+    #sec-two .offers .offer h4 {
+        font-size: 2.2vw;
+    }
+
+    #sec-two .offers .offer h3 {
+        font-size: 3.2vw;
+        margin: 1.8vw 0;
+    }
+
+    /* Section Three Area  */
+    #sec-three {
+        padding: 0 0 3vw 0;
+    }
+
+    .products .product {
+        width: 32%;
+    }
+
+    #sec-three .products .product.four {
+        display: none;
+    }
+
+    .products .product .product-details {
+        margin-top: 2vw;
+    }
+
+    .products .product .product-details h3 {
+        font-size: 2.2vw;
+    }
+
+    .products .product .product-details .star i {
+        font-size: 2vw;
+    }
+
+    .products .product .product-details h4 {
+        font-size: 2vw;
+    }
+
+    /* Section Four Area  */
+    #sec-four .hot-deals {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #sec-four .hot-deals .deal {
+        width: 90%;
+    }
+
+    #sec-four .hot-deals .deal.one {
+        height: auto;
+    }
+
+    #sec-four .hot-deals .deal.one .parent-box .child-box h3 {
+        font-size: 1.8vw;
+        letter-spacing: .05rem;
+    }
+
+    #sec-four .hot-deals .deal.one .parent-box .child-box h2 {
+        font-size: 3.7vw;
+    }
+
+    #sec-four .hot-deals .deal.two {
+        height: 80vh;
+    }
+
+    /* Section Five  */
+    #sec-five {
+        margin-bottom: 0;
+    }
+
+    #sec-five .heading {
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 2vw;
+    }
+
+    #sec-five .heading .items ul {
+        gap: 2.2vw;
+        font-size: 2.2vw;
+    }
+
+    #sec-five .products {
+        margin-top: 2rem;
+    }
+
+    #sec-five .products {
+        justify-content: flex-start;
+        gap: 1.5vw;
+    }
+
+    /* Section Six  */
+    #sec-six {
+        width: 95%;
+    }
+
+    #sec-six .hot-deals {
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    #sec-six .hot-deals .deal {
+        width: 100%;
+    }
+
+    #sec-six .hot-deals .deal .parent-box .child-box h3 {
+        font-size: 1.8vw;
+        letter-spacing: .05rem;
+    }
+
+    #sec-six .hot-deals .deal .parent-box .child-box h2 {
+        font-size: 3.7vw;
+    }
+
+    /* Section Seven  */
+    #sec-seven #box .feedbacks .feedback {
+        width: 48%;
+        padding: 2.5vw;
+        height: auto;
+    }
+
+    #sec-seven #box .feedbacks .feedback.three {
+        display: none;
+    }
+
+    #sec-seven #box .feedbacks .feedback .head .left .star i,
+    #sec-seven #box .feedbacks .feedback .head .left p {
+        font-size: 1.9vw;
+    }
+
+    #sec-seven #box .feedbacks .feedback .head .left h4 {
+        font-size: 2vw;
+    }
+
+    #sec-seven #box .feedbacks .feedback .head .right img {
+        width: 90%;
+    }
+
+    #sec-seven #box .feedbacks .feedback .body p {
+        font-size: 1.8vw;
+        line-height: 2.5vw;
+    }
+
+    #sec-seven #box .buttons i {
+        font-size: 1.9vw;
+        padding: 1.7vw;
+    }
+
+    /* Section Eight  */
+    #sec-eight .best-sellers .best-sell {
+        width: 45%;
+        margin: .7rem 0;
+    }
+
+    #sec-eight .best-sellers .best-sell .right h3 {
+        font-size: 2.3vw;
+    }
+
+    #sec-eight .best-sellers .best-sell .right h4,
+    #sec-eight .best-sellers .best-sell .right div i {
+        font-size: 2vw;
+    }
+
+    /* Section Nine  */
+    #sec-nine .blogs {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 3vw;
+    }
+
+    #sec-nine .blogs .blog {
+        width: 90%;
+        padding: 3.5vw;
+    }
+
+    #sec-nine .blogs .blog .left a {
+        padding: .5vw 1.2vw;
+        font-size: 2vw;
+    }
+
+    #sec-nine .blogs .blog .left p {
+        font-size: 2vw;
+        margin: 2.2vw 0;
+    }
+
+    #sec-nine .blogs .blog .left h3 {
+        font-size: 3.5vw;
+    }
+
+    #sec-nine .blogs .blog .left button {
+        padding: 2vw;
+        font-size: 2vw;
+        margin-top: 2.3vw;
+    }
+
+    #sec-nine .blogs .blog .right {
+        text-align: right;
+    }
+
+    #sec-nine .blogs .blog .right img {
+        width: 90%;
+    }
+
+    /* Section Ten  */
+    #sec-ten .boxes {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 5.5vw;
+    }
+
+    #sec-ten .boxes .box {
+        width: 45%;
+        padding: 2.5vw;
+    }
+
+    #sec-ten .boxes .box h3 {
+        font-size: 3vw;
+    }
+
+    #sec-ten .boxes .box p {
+        font-size: 1.9vw;
+        line-height: 2.9vw;
+    }
+
+    #sec-ten .brands {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    #sec-ten .brands .brand {
+        width: 30%;
+        margin: 1vw 0;
+    }
+
+    #sec-ten .brands .brand img {
+        width: 50%;
+    }
+
+    /* Footer Area  */
+    footer #box .box1 {
+        flex-wrap: wrap;
+    }
+
+    footer #box .box1 .first,
+    footer #box .box1 .second,
+    footer #box .box1 .third {
+        width: 45%;
+    }
+
+    footer #box .box1 .first,
+    footer #box .box1 .second {
+        margin-bottom: 5vw;
+    }
+
+    footer #box .box1 .first p {
+        font-size: 2vw;
+        line-height: 3vw;
+        margin: 1.5rem 0;
+        width: 100%;
+    }
+
+    footer #box .box1 .first .social i {
+        font-size: 4vw;
+    }
+
+    footer #box .box1 .second .box h3,
+    footer #box .box1 .third h3 {
+        font-size: 2.7vw;
+    }
+
+    footer #box .box1 .second .box a {
+        font-size: 1.9vw;
+    }
+
+    footer #box .box1 .third .address {
+        font-size: 2vw;
+        line-height: 3.2vw;
+    }
+
+    footer #box .box1 .third .info i {
+        font-size: 4.2vw;
+    }
+
+    footer #box .box1 .third .info p {
+        font-size: 1.8vw;
+        line-height: 3vw;
+    }
+
+    footer #box .box2 {
+        flex-wrap: wrap;
+    }
+
+    footer #box .box2 div {
+        width: 48%;
+    }
+
+    footer #box .box2 .text p,
+    footer #box .box2 .policy a {
+        font-size: 1.9vw;
+        line-height: 3vw;
+    }
+
+    footer #box .box2 .pay {
+        justify-content: center;
+        gap: .7vw;
+    }
+
+    footer #box .box2 .pay img {
+        width: 20%;
+    }
+
+    footer #box .box2 .text,
+    footer #box .box2 .pay {
+        margin-bottom: 2vw;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    /* Common Style  */
+    .title,
+    .btn {
+        font-size: 1.9vw;
+    }
+
+    .title-head {
+        margin: 1.8vw 0;
+        font-size: 4.5vw;
+    }
+
+    /* Header Area  */
+    header .popup {
+        padding: 0 3vw;
+    }
+
+    header .popup a,
+    header .popup .settings select,
+    header .popup .settings button {
+        font-size: 2.4vw;
+    }
+
+    header nav {
+        padding: 0 3vw;
+    }
+
+    header nav .nav-right i {
+        font-size: 3.5vw;
+        margin: 0 .5rem;
+    }
+
+    /* Section One Area  */
+    #sec-one .left-side h2 {
+        font-size: 5.5vw;
+        line-height: 6.5vw;
+    }
+
+    #sec-one .left-side p {
+        width: 90%;
+        font-size: 2.5vw;
+        line-height: 3.5vw;
+    }
+
+    #sec-one .right-side div img {
+        width: 55%;
+    }
+
+    /* Section Two Area  */
+    #sec-two .benefits .benefit i {
+        font-size: 6.8vw;
+    }
+
+    #sec-two .benefits .benefit div h3 {
+        font-size: 3vw;
+        margin-bottom: .2rem;
+    }
+
+    #sec-two .benefits .benefit div p {
+        font-size: 2vw;
+    }
+
+    #sec-two .offers .offer h4 {
+        font-size: 2.8vw;
+    }
+
+    #sec-two .offers .offer h3 {
+        font-size: 3.5vw;
+        margin: 2vw 0;
+    }
+
+    /* Section Three Area  */
+    #sec-three {
+        padding: 0 0 3vw 0;
+    }
+
+    .products {
+        justify-content: center;
+        gap: 3vw;
+    }
+
+    .products .product {
+        width: 40%;
+    }
+
+    #sec-three .products .product.three {
+        display: none;
+    }
+
+    .products .product .product-img.one,
+    .products .product .product-img.two {
+        background-size: 80%;
+    }
+
+    .products .product .product-img:hover {
+        background-size: 90%;
+    }
+
+    .products .product .product-details {
+        margin-top: 2vw;
+    }
+
+    .products .product .product-details h3 {
+        font-size: 2.8vw;
+    }
+
+    .products .product .product-details .star i,
+    .products .product .product-details h4 {
+        font-size: 2.4vw;
+    }
+
+    /* Section Four Area  */
+    #sec-four .hot-deals .deal.one .parent-box {
+        padding: 3.5vw;
+    }
+
+    #sec-four .hot-deals .deal.one .parent-box .child-box {
+        padding: 2.5rem;
+    }
+
+    #sec-four .hot-deals .deal.one .parent-box .child-box h3 {
+        font-size: 2.5vw;
+    }
+
+    #sec-four .hot-deals .deal.one .parent-box .child-box h2 {
+        margin: 2.5vw 0;
+        font-size: 4.3vw;
+    }
+
+    /* Section Five  */
+    #sec-five .heading .items ul {
+        font-size: 2.7vw;
+    }
+
+    #sec-five .products {
+        justify-content: flex-start;
+        gap: 3.5vw;
+    }
+
+    #sec-five .products .product {
+        width: 45%;
+        margin-bottom: 1rem;
+    }
+
+    /* Section Six  */
+    #sec-six {
+        padding-bottom: 3vw;
+    }
+
+    #sec-six .hot-deals .deal .parent-box {
+        padding: 5vw;
+    }
+
+    #sec-six .hot-deals .deal .parent-box .child-box h3 {
+        font-size: 2.5vw;
+    }
+
+    #sec-six .hot-deals .deal .parent-box .child-box h2 {
+        margin: 2.5vw 0;
+        font-size: 4.3vw;
+    }
+
+    /* Section Seven  */
+    #sec-seven #box .feedbacks {
+        justify-content: center;
+    }
+
+    #sec-seven #box .feedbacks .feedback {
+        width: 90%;
+        padding: 3.5vw;
+    }
+
+    #sec-seven #box .feedbacks .feedback.two {
+        display: none;
+    }
+
+    #sec-seven #box .feedbacks .feedback .head .left h4 {
+        font-size: 3.2vw;
+    }
+
+    #sec-seven #box .feedbacks .feedback .head .left .star i,
+    #sec-seven #box .feedbacks .feedback .head .left p {
+        font-size: 2.5vw;
+    }
+
+    #sec-seven #box .feedbacks .feedback .head .right img {
+        width: 50%;
+    }
+
+    #sec-seven #box .feedbacks .feedback .body p {
+        font-size: 2.5vw;
+        line-height: 3.5vw;
+    }
+
+    #sec-seven #box .buttons i {
+        font-size: 2.4vw;
+        padding: 2.2vw;
+    }
+
+    /* Section Eight  */
+    #sec-eight .best-sellers .best-sell .left img {
+        width: 90%;
+    }
+
+    #sec-eight .best-sellers .best-sell .right h3 {
+        font-size: 2.7vw;
+    }
+
+    #sec-eight .best-sellers .best-sell .right h4,
+    #sec-eight .best-sellers .best-sell .right div i {
+        font-size: 2.2vw;
+    }
+
+    /* Section Nine  */
+    #sec-nine .blogs .blog {
+        width: 100%;
+    }
+
+    #sec-nine .blogs .blog .left a {
+        padding: .8vw 1.8vw;
+        font-size: 2.6vw;
+    }
+
+    #sec-nine .blogs .blog .left p {
+        font-size: 2.5vw;
+        margin: 2.5vw 0;
+    }
+
+    #sec-nine .blogs .blog .left h3 {
+        font-size: 4.4vw;
+    }
+
+    #sec-nine .blogs .blog .left button {
+        padding: 2.5vw;
+        font-size: 2.5vw;
+        margin-top: 2.5vw;
+    }
+
+    /* Section Ten  */
+    #sec-ten .boxes .box {
+        width: 100%;
+        padding: 3.5vw;
+    }
+
+    #sec-ten .boxes .box h3 {
+        font-size: 3.8vw;
+    }
+
+    #sec-ten .boxes .box p {
+        width: 80%;
+        font-size: 2.7vw;
+        line-height: 3.8vw;
+        margin: .8rem 0;
+    }
+
+    /* Footer Area  */
+    footer #box .box1 .first,
+    footer #box .box1 .second,
+    footer #box .box1 .third {
+        width: 80%;
+    }
+
+    footer #box .box1 .first,
+    footer #box .box1 .second {
+        margin-bottom: 6vw;
+    }
+
+    footer #box .box1 .first p {
+        font-size: 2.7vw;
+        line-height: 3.8vw;
+    }
+
+    footer #box .box1 .first .social i {
+        font-size: 4.2vw;
+    }
+
+    footer #box .box1 .second {
+        justify-content: flex-start;
+        gap: 9vw;
+    }
+
+    footer #box .box1 .second .box h3,
+    footer #box .box1 .third h3 {
+        font-size: 3.8vw;
+        margin-bottom: 2.9vw;
+    }
+
+    footer #box .box1 .second .box a {
+        font-size: 2.8vw;
+    }
+
+    footer #box .box1 .third .address {
+        font-size: 2.7vw;
+        line-height: 4vw;
+    }
+
+    footer #box .box1 .third .info i {
+        font-size: 5vw;
+    }
+
+    footer #box .box1 .third .info p {
+        font-size: 2.4vw;
+        line-height: 3.5vw;
+    }
+
+    footer #box .box2 .text p,
+    footer #box .box2 .policy a {
+        font-size: 2.3vw;
+        line-height: 3.3vw;
+    }
+
+    footer #box .box2 .pay img {
+        width: 25%;
+    }
+}
+
+@media screen and (max-width : 576px) {
+
+    /* Common Style  */
+    .title,
+    .btn {
+        font-size: 2.6vw;
+    }
+
+    .title-head {
+        margin: 2vw 0;
+        font-size: 5.3vw;
+    }
+
+    /* Header Area  */
+    header .popup {
+        display: none;
+    }
+
+    header nav {
+        height: 12vh;
+    }
+
+    header nav .nav-right i {
+        font-size: 4.5vw;
+    }
+
+    /* Section One Area  */
+    #sec-one {
+        padding: 2rem 1.5rem;
+    }
+
+    #sec-one .left-side h2 {
+        font-size: 6.5vw;
+        line-height: 8vw;
+    }
+
+    #sec-one .left-side p {
+        width: 100%;
+        font-size: 3.2vw;
+        line-height: 5vw;
+    }
+
+    #sec-one .right-side div img {
+        width: 60%;
+    }
+
+    /* Section Two Area  */
+    #sec-two {
+        margin: 0 auto;
+        padding: 4rem 0;
+    }
+
+    #sec-two .benefits {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    #sec-two .benefits .benefit {
+        width: 60%;
+    }
+
+    #sec-two .benefits .benefit i {
+        font-size: 8.8vw;
+    }
+
+    #sec-two .benefits .benefit div h3 {
+        font-size: 4.3vw;
+    }
+
+    #sec-two .benefits .benefit div p {
+        font-size: 2.8vw;
+    }
+
+    #sec-two .offers .offer h4 {
+        font-size: 3.5vw;
+    }
+
+    #sec-two .offers .offer h3 {
+        font-size: 4.2vw;
+        margin: 2.5vw 0;
+    }
+
+    /* Section Three Area  */
+    #sec-three .products .product {
+        width: 65%;
+    }
+
+    #sec-three .products .product.two {
+        display: none;
+    }
+
+    .products .product .product-img.one {
+        background-size: 90%;
+    }
+
+    .products .product .product-img:hover {
+        background-size: 100%;
+    }
+
+    .products .product .product-details {
+        margin-top: 2.2vw;
+    }
+
+    .products .product .product-details h3 {
+        font-size: 3.6vw;
+    }
+
+    .products .product .product-details .star i,
+    .products .product .product-details h4 {
+        font-size: 3vw;
+    }
+
+
+    /* Section Four Area  */
+    #sec-four .hot-deals .deal.one .parent-box {
+        padding: 5.5vw;
+    }
+
+    #sec-four .hot-deals .deal.one .parent-box .child-box {
+        padding: 1.7rem;
+    }
+
+    #sec-four .hot-deals .deal.one .parent-box .child-box h3 {
+        font-size: 3vw;
+    }
+
+    #sec-four .hot-deals .deal.one .parent-box .child-box h2 {
+        margin: 3vw 0;
+        font-size: 5vw;
+    }
+
+    /* Section Five  */
+    #sec-five .heading .items ul {
+        font-size: 3.3vw;
+    }
+
+    #sec-five .products {
+        gap: 4vw;
+    }
+
+    #sec-five .products .product {
+        width: 47%;
+    }
+
+    /* Section Six  */
+    #sec-six .hot-deals .deal .parent-box .child-box {
+        padding: 1.5rem;
+    }
+
+    #sec-six .hot-deals .deal .parent-box .child-box h3 {
+        font-size: 3vw;
+    }
+
+    #sec-six .hot-deals .deal .parent-box .child-box h2 {
+        margin: 3vw 0;
+        font-size: 5vw;
+    }
+
+    /* Section Seven  */
+    #sec-seven #box .feedbacks .feedback {
+        width: 100%;
+        padding: 4vw;
+    }
+
+    #sec-seven #box .feedbacks .feedback .head .left .star i,
+    #sec-seven #box .feedbacks .feedback .head .left p {
+        font-size: 3vw;
+    }
+
+    #sec-seven #box .feedbacks .feedback .head .left h4 {
+        font-size: 4vw;
+    }
+
+    #sec-seven #box .feedbacks .feedback .head .right img {
+        width: 60%;
+    }
+
+    #sec-seven #box .feedbacks .feedback .body p {
+        font-size: 3.1vw;
+        line-height: 4.3vw;
+    }
+
+    #sec-seven #box .buttons i {
+        font-size: 2.7vw;
+        padding: 2.7vw;
+    }
+
+
+    /* Section Eight  */
+    #sec-eight .best-sellers .best-sell {
+        width: 85%;
+        margin: .5rem 0;
+    }
+
+    #sec-eight .best-sellers .best-sell .left img {
+        width: 100%;
+    }
+
+    #sec-eight .best-sellers .best-sell .right {
+        margin-left: 3vw;
+    }
+
+    #sec-eight .best-sellers .best-sell .right h3 {
+        font-size: 3.8vw;
+    }
+
+    #sec-eight .best-sellers .best-sell .right h4,
+    #sec-eight .best-sellers .best-sell .right div i {
+        font-size: 3.2vw;
+    }
+
+    /* Section Nine  */
+    #sec-nine .blogs .blog {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    #sec-nine .blogs .blog .left {
+        width: 100%;
+        padding: 2vw 0;
+    }
+
+    #sec-nine .blogs .blog .left a {
+        padding: 1.2vw 2.3vw;
+        font-size: 3.8vw;
+    }
+
+    #sec-nine .blogs .blog .left p {
+        font-size: 3.8vw;
+        margin: 3vw 0;
+    }
+
+    #sec-nine .blogs .blog .left h3 {
+        font-size: 5.3vw;
+    }
+
+    #sec-nine .blogs .blog .left button {
+        padding: 3vw;
+        font-size: 3vw;
+        margin-top: 3vw;
+    }
+
+    #sec-nine .blogs .blog .right {
+        width: 100%;
+        text-align: left;
+        margin-top: 2vw;
+    }
+
+    /* Section Ten  */
+    #sec-ten .boxes {
+        gap: 4.5vw;
+    }
+
+    #sec-ten .boxes .box {
+        padding: 4vw;
+    }
+
+    #sec-ten .boxes .box h3 {
+        font-size: 4.8vw;
+    }
+
+    #sec-ten .boxes .box p {
+        font-size: 3.5vw;
+        line-height: 5vw;
+        margin: 1rem 0;
+    }
+
+    #sec-ten .brands .brand {
+        width: 45%;
+    }
+
+    /* Footer Area  */
+    footer #box .box1 .first,
+    footer #box .box1 .second,
+    footer #box .box1 .third {
+        width: 100%;
+    }
+
+    footer #box .box1 .first p {
+        font-size: 3.5vw;
+        line-height: 5.5vw;
+    }
+
+    footer #box .box1 .first .social i {
+        font-size: 5.2vw;
+    }
+
+    footer #box .box1 .second {
+        gap: 12vw;
+    }
+
+    footer #box .box1 .second .box h3,
+    footer #box .box1 .third h3 {
+        font-size: 4.3vw;
+        margin-bottom: 3.3vw;
+    }
+
+    footer #box .box1 .second .box a {
+        font-size: 3.3vw;
+    }
+
+    footer #box .box1 .third .address {
+        font-size: 3.3vw;
+        line-height: 5vw;
+    }
+
+    footer #box .box1 .third .info i {
+        font-size: 6vw;
+    }
+
+    footer #box .box1 .third .info p {
+        font-size: 3vw;
+        line-height: 4vw;
+    }
+
+    footer #box .box2 div {
+        width: 100%;
+    }
+
+    footer #box .box2 .text p,
+    footer #box .box2 .policy a {
+        font-size: 3.2vw;
+        line-height: 5vw;
+    }
+
+    footer #box .box2 .pay {
+        gap: 1vw;
+        justify-content: flex-start;
+    }
+
+    footer #box .box2 .pay img {
+        width: 17%;
+    }
+}
+
+@media screen and (max-width : 450px) {
+
+    /* Common Style  */
+    .title {
+        font-size: 3.2vw;
+    }
+
+    .btn {
+        font-size: 3.2vw;
+        padding: .8rem 1.2rem;
+    }
+
+    #sec-one .left-side .details {
+        padding: .8rem 1.2rem;
+    }
+
+    .title-head {
+        margin: 2.3vw 0;
+        font-size: 6.1vw;
+    }
+
+    /* Header Area  */
+    header nav .nav-right i {
+        font-size: 6.5vw;
+    }
+
+    /* Section One Area  */
+    #sec-one {
+        padding: 1.5rem;
+    }
+
+    #sec-one .left-side h2 {
+        font-size: 7.5vw;
+        line-height: 8.8vw;
+    }
+
+    #sec-one .left-side p {
+        font-size: 4.3vw;
+        line-height: 6vw;
+    }
+
+    #sec-one .right-side div img {
+        width: 70%;
+        margin-top: 10vw;
+    }
+
+    /* Section Two Area  */
+    #sec-two {
+        padding: 3rem 0;
+    }
+
+    #sec-two .benefits .benefit {
+        width: 80%;
+    }
+
+    #sec-two .benefits .benefit i {
+        font-size: 10vw;
+    }
+
+    #sec-two .benefits .benefit div h3 {
+        font-size: 5.1vw;
+    }
+
+    #sec-two .benefits .benefit div p {
+        font-size: 3.5vw;
+    }
+
+    #sec-two .offers .offer {
+        width: 95%;
+        padding: 7vw;
+        margin-bottom: 5vw;
+    }
+
+    #sec-two .offers .offer h4 {
+        font-size: 4.5vw;
+    }
+
+    #sec-two .offers .offer h3 {
+        font-size: 5.2vw;
+        margin: 3.2vw 0;
+    }
+
+    /* Section Three Area  */
+    #sec-three {
+        padding: 0;
+    }
+
+    #sec-three .products .product {
+        width: 85%;
+    }
+
+    .products .product .product-details h3 {
+        font-size: 5vw;
+    }
+
+    .products .product .product-details .star i,
+    .products .product .product-details h4 {
+        font-size: 4vw;
+    }
+
+    /* Section Four Area  */
+    #sec-four .hot-deals .deal.one .parent-box .child-box h3 {
+        font-size: 3.8vw;
+    }
+
+    #sec-four .hot-deals .deal.one .parent-box .child-box h2 {
+        margin: 3.5vw 0;
+        font-size: 5.8vw;
+    }
+
+    /* Section Five  */
+    #sec-five .products .product .product-img {
+        height: 30vh;
+    }
+
+    #sec-five .heading .items ul {
+        flex-wrap: wrap;
+        font-size: 4vw;
+    }
+
+    /* Section Six  */
+    #sec-six {
+        padding-bottom: 8vw;
+    }
+
+    #sec-six .hot-deals .deal .parent-box .child-box {
+        padding: 1rem;
+    }
+
+    #sec-six .hot-deals .deal .parent-box .child-box h3 {
+        font-size: 3.8vw;
+    }
+
+    #sec-six .hot-deals .deal .parent-box .child-box h2 {
+        margin: 3.5vw 0;
+        font-size: 5.8vw;
+    }
+
+    /* Section Seven  */
+    #sec-seven #box .feedbacks {
+        width: 90%;
+    }
+
+    #sec-seven #box .feedbacks .feedback {
+        padding: 4.5vw;
+    }
+
+    #sec-seven #box .feedbacks .feedback .head .left .star i,
+    #sec-seven #box .feedbacks .feedback .head .left p {
+        font-size: 3.8vw;
+    }
+
+    #sec-seven #box .feedbacks .feedback .head .left h4 {
+        font-size: 4.8vw;
+    }
+
+    #sec-seven #box .feedbacks .feedback .head .right img {
+        width: 65%;
+    }
+
+    #sec-seven #box .feedbacks .feedback .body p {
+        font-size: 3.8vw;
+        line-height: 5.2vw;
+    }
+
+    #sec-seven #box .buttons i {
+        font-size: 3vw;
+        padding: 3vw;
+    }
+
+    /* Section Eight  */
+    #sec-eight .best-sellers .best-sell .right {
+        margin-left: 5vw;
+    }
+
+    #sec-eight .best-sellers .best-sell .right h3 {
+        font-size: 4.3vw;
+    }
+
+    #sec-eight .best-sellers .best-sell .right h4,
+    #sec-eight .best-sellers .best-sell .right div i {
+        font-size: 3.8vw;
+    }
+
+    /* Section Nine  */
+    #sec-nine .blogs .blog .left {
+        padding: 3vw 0;
+    }
+
+    #sec-nine .blogs .blog .left a {
+        padding: 1.5vw 2.7vw;
+        font-size: 4.2vw;
+    }
+
+    #sec-nine .blogs .blog .left p {
+        font-size: 4.2vw;
+        margin: 3.5vw 0;
+    }
+
+    #sec-nine .blogs .blog .left h3 {
+        font-size: 6.2vw;
+    }
+
+    #sec-nine .blogs .blog .left button {
+        padding: 3.7vw;
+        font-size: 3.7vw;
+        margin-top: 3.7vw;
+    }
+
+    #sec-nine .blogs .blog .right img {
+        width: 100%;
+    }
+
+    /* Section Ten  */
+    #sec-ten .boxes .box h3 {
+        font-size: 5.8vw;
+    }
+
+    #sec-ten .boxes .box p {
+        font-size: 4.5vw;
+        line-height: 6vw;
+        margin: .8rem 0;
+        width: 95%;
+    }
+
+    #sec-ten .brands .brand img {
+        width: 60%;
+    }
+
+    /* Footer Area  */
+    footer #box .box1 .first p {
+        font-size: 4.5vw;
+        line-height: 6.5vw;
+    }
+
+    footer #box .box1 .first .social i {
+        font-size: 6.2vw;
+    }
+
+    footer #box .box1 .second {
+        justify-content: space-between;
+    }
+
+    footer #box .box1 .second .box h3,
+    footer #box .box1 .third h3 {
+        font-size: 5.3vw;
+        margin-bottom: 3.8vw;
+    }
+
+    footer #box .box1 .second .box a {
+        font-size: 4vw;
+    }
+
+    footer #box .box1 .third .address {
+        font-size: 4vw;
+        line-height: 6vw;
+    }
+
+    footer #box .box1 .third .info i {
+        font-size: 6vw;
+    }
+
+    footer #box .box1 .third .info p {
+        font-size: 4.2vw;
+        line-height: 5.2vw;
+    }
+
+    footer #box .box1 {
+        padding: 5.5vw 0;
+    }
+
+    footer #box .box2 {
+        color: rgb(196, 189, 189);
+        padding: 4.5vw 0;
+    }
+
+    footer #box .box2 .text .copy {
+        margin-bottom: 2vw;
+    }
+
+    footer #box .box2 .text p,
+    footer #box .box2 .policy a {
+        font-size: 4vw;
+        line-height: 5.5vw;
+        color: rgb(196, 189, 189);
+    }
+
+    footer #box .box2 .pay img {
+        width: 25%;
+    }
+
+    footer #box .box2 .text,
+    footer #box .box2 .pay {
+        margin-bottom: 5vw;
+    }
+}
